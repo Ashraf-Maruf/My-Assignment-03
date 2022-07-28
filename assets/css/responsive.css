@@ -1,0 +1,90 @@
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+    header .carousel-item img{
+        height: 80vh;
+        background-size: cover;
+    }
+    header .carousel-caption{
+        bottom: 3vh;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header .carousel-caption .fs-text{
+        font-size: 3rem;
+    }
+    .explore-area .text-fs-4{
+        font-size:18px;
+    }
+
+    .explore-area .card-body {
+        padding: 40px 30px 40px 30px;
+    }
+    .explore-area .card-title{
+        font-size: 28px;
+    }
+    .feedback-area .card {
+        padding: 40px;
+    }
+    .courses .card-title {
+        font-size: 20px;
+    }
+
+}
+
+
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 576px) {
+
+    header .carousel-item img{
+        height: 40vh;
+        background-size: cover;
+    }
+
+    header .carousel-caption {
+        bottom: 0vh;
+        width: 100%;
+        left: 0;
+        padding-top:19px;
+        padding-bottom: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .carousel-caption .fs-text{
+        font-size: 25px;
+    }
+
+    .explore-area .text-fs-4{
+        font-size:13px;
+    }
+
+    .explore-area .card-body {
+        padding: 30px 10px 30px 10px;
+    }
+    .explore-area .card-title{
+        font-size: 22px;
+    }
+
+    .feedback-area .card {
+        padding: 16px;
+    }
+
+    .courses .card-title {
+        font-size: 17px;
+    }
+
+    .courses .card-text{
+        text-align: justify;
+    }
+
+    .top-fs {
+        font-size: 18px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,170 @@
+/*=========================
+    Google Fonts Poppins
+===========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*=========================
+    Common css Start
+===========================*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*=========================
+    Common css End
+===========================*/
+
+/*===============================
+ Bootstrap Customize Css Start
+=================================/*/
+
+.section-margin{
+    margin-top: 130px;
+}
+
+.reg-bg-primary,
+.but-primary{
+    background-color: #289BDE;
+}
+
+.but-text-primary{
+    color: #289BDE;
+}
+
+
+/*=============================
+        Header Css Start
+===============================*/
+
+.nav-link{
+    color: #777777;
+}
+
+.nav-link:hover{
+    color: #289BDE;
+}
+
+.text-fs{
+    font-size: 65px;
+    line-height: 85px;
+}
+
+.slider-area{
+    top: 25%;
+}
+
+header .carousel-item img{
+    height: 100vh;
+    min-width: 300px;
+}
+
+header .carousel-item:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 29, 29, 0.7);
+}
+header .carousel-caption {
+    bottom: 5vh;
+    padding-top: 174px;
+    padding-bottom: 182px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+header .carousel-caption .fs-text{
+    font-size: 4rem;
+}
+
+/*=============================
+        Header Css End
+===============================*/
+
+/*========================
+Explore Section Css Start
+===========================*/
+
+.explore-bg-secondary{
+    background-color: #F4FAFD;
+}
+
+.explore-area .card-body {
+    padding: 130px 60px 100px 60px;
+    text-align: justify;
+}
+.explore-area .card-title{
+    font-size: 46px;
+}
+
+.text-fs-4{
+    font-size: 20px;
+}
+
+/*=========================
+Explore Section Css End
+===========================*/
+
+/*===============================
+    Feedback Section Css Start
+===================================*/
+
+.feedback-icon-1{
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -22px;
+    border-radius: 50px;
+}
+.feedback-icon-2{
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    margin-right: -22px;
+    border-radius: 50px;
+}
+
+.feedback-area .card{
+    padding: 40px;
+}
+/*================================
+        Feedback Section Css End
+===================================*/
+
+/*================================
+    Accordion Section Css Start
+===================================*/
+
+.accordion-button:not(.collapsed){
+    background-color: rgba(40, 155, 222, 0.1);
+}
+
+/*================================
+    Accordion Section Css End
+===================================*/
+
+
+/*================================
+    Footer Css Start
+===================================*/
+
+.footer-icon a{
+    background-color: #242424;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*================================
+    Footer Css End
+===================================*/
